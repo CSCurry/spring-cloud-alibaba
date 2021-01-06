@@ -1,0 +1,22 @@
+server:
+  port: 7001
+
+spring:
+  application:
+    name: alibaba-nacos-config-client
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848         #Nacos服务端地址
+        file-extension: properties          #Nacos配置中心的配置文件格式，也是DATA ID后缀，默认值：properties
+        group: DEFAULT_GROUP                #Nacos配置中心的Group，默认值：DEFAULT_GROUP
+        prefix: ${spring.application.name}  #Nacos配置中心的配置DATA ID前缀，默认值：服务名
+        namespace: ${namespace.${spring.profiles.active}}
+
+namespace:
+  dev:
+    da508a19-86ff-4dd8-95b4-78ddbc295796    #Nacos配置中心dev命名空间ID
+  test:
+    9a05a718-0ba1-455e-b089-32e207201121    #Nacos配置中心test命名空间ID
