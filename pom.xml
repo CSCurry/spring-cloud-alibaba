@@ -14,13 +14,16 @@
         <module>alibaba-nacos-discovery-client-common</module>          <!-- 使用Nacos实现服务注册与发现：服务消费方（SpringCloudCommon接口实现负载均衡）-->
         <module>alibaba-nacos-discovery-client-feign</module>           <!-- 使用Nacos实现服务注册与发现：服务消费方（Feign实现）-->
         <module>alibaba-nacos-config-client</module>                    <!-- 使用Nacos作为配置中心 -->
-
         <module>alibaba-sentinel-rate-limiting</module>                 <!-- 使用Sentinel实现接口限流 -->
+
+        <module>learn-reflect</module>                                  <!-- 学习反射 -->
     </modules>
 
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring-boot-maven-plugin>1.3.5.RELEASE</spring-boot-maven-plugin>
+
         <spring-boot.version>2.3.2.RELEASE</spring-boot.version>
         <spring-cloud.version>Hoxton.SR8</spring-cloud.version>
         <spring-cloud-alibaba.version>2.2.3.RELEASE</spring-cloud-alibaba.version>

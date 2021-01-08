@@ -9,21 +9,16 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>alibaba-nacos-config-client</artifactId>
+    <artifactId>learn-reflect</artifactId>
     <version>1.0.0</version>
-    <name>alibaba-nacos-config-client</name>
-    <description>使用Nacos作为配置中心</description>
+    <name>learn-reflect</name>
+    <description>学习反射</description>
 
     <dependencies>
         <!-- spring-boot-starter-web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <!-- nacos配置中心 -->
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
 
         <!-- lombok -->
@@ -41,7 +36,7 @@
                 <version>${spring-boot-maven-plugin}</version>
                 <configuration>
                     <!-- 指定SpringBoot程序的main函数入口类 -->
-                    <mainClass>com.example.AlibabaNacosConfigClientApplication</mainClass>
+                    <mainClass>com.example.LearnReflectApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
