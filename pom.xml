@@ -17,6 +17,8 @@
         <module>alibaba-sentinel-rate-limiting</module>                 <!-- 使用Sentinel实现接口限流 -->
 
         <module>learn-reflect</module>                                  <!-- 学习反射 -->
+        <module>learn-map</module>                                      <!-- 学习Map -->
+        <module>learn-thread</module>                                   <!-- 学习线程 -->
     </modules>
 
     <properties>
