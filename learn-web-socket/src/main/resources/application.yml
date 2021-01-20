@@ -1,0 +1,10 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: learn-web-socket
+  mvc:
+    static-path-pattern: /static/**
+  resources:
+    static-locations: classpath:/static/
