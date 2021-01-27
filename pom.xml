@@ -22,11 +22,6 @@
         <module>alibaba-nacos-discovery-client-feign</module>           <!-- 使用Nacos实现服务注册与发现：服务消费方（Feign实现）-->
         <module>alibaba-nacos-config-client</module>                    <!-- 使用Nacos作为配置中心 -->
         <module>alibaba-sentinel-rate-limiting</module>                 <!-- 使用Sentinel实现接口限流 -->
-
-        <module>learn-reflect</module>                                  <!-- 学习反射 -->
-        <module>learn-map</module>                                      <!-- 学习Map -->
-        <module>learn-thread</module>                                   <!-- 学习线程 -->
-        <module>learn-web-socket</module>                               <!-- 学习WebSocket -->
     </modules>
 
     <properties>
