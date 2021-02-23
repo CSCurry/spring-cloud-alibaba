@@ -7,4 +7,4 @@ spring:
   cloud:
     sentinel:
       transport:
-        dashboard: localhost:8080 #sentinel-dashboard\u9ED8\u8BA4\u4EE58080\u7AEF\u53E3\u542F\u52A8
+        dashboard: localhost:8080 #sentinel-dashboard 默认以8080端口启动

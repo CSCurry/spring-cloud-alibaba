@@ -9,16 +9,16 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
-    <parent>
+    <!--<parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.5.RELEASE</version>
+        <version>2.3.2.RELEASE</version>
         <relativePath/>
-    </parent>
+    </parent>-->
 
     <modules>
         <module>alibaba-nacos-discovery-server</module>                 <!-- 使用Nacos实现服务注册与发现：服务提供方 -->
-        <module>alibaba-nacos-discovery-client-common</module>          <!-- 使用Nacos实现服务注册与发现：服务消费方（SpringCloudCommon接口实现负载均衡）-->
+        <module>alibaba-nacos-discovery-client-common</module>          <!-- 使用Nacos实现服务注册与发现：服务消费方（Spring Cloud Common接口实现负载均衡）-->
         <module>alibaba-nacos-discovery-client-feign</module>           <!-- 使用Nacos实现服务注册与发现：服务消费方（Feign实现）-->
         <module>alibaba-nacos-config-client</module>                    <!-- 使用Nacos作为配置中心 -->
         <module>alibaba-sentinel-rate-limiting</module>                 <!-- 使用Sentinel实现接口限流 -->

@@ -12,7 +12,7 @@
     <artifactId>alibaba-nacos-discovery-client-common</artifactId>
     <version>1.0.0</version>
     <name>alibaba-nacos-discovery-client-common</name>
-    <description>服务消费方（SpringCloudCommon接口实现负载均衡）</description>
+    <description>服务消费方（Spring Cloud Common接口实现负载均衡）</description>
 
     <dependencies>
         <!-- spring-boot-starter-web -->
